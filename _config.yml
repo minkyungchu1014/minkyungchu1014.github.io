@@ -1,0 +1,34 @@
+title: 츄츄밍의 개발새발기록
+tagline: 개발자로 살아남기 중!
+description: "" # this means to ignore newlines until "baseurl:"
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: ko-KR
+url: "https://minkyungchu1014.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: chuchu # add your name
+author-img: image.jpg # add your photo
+about-author: I am a web developer focusing on back-end/front-end development. Always hungry to keep learning. # add description
+social-github: "https://github.com/minkyungchu1014" # add your Github handle
+social-linkedin: "https://www.linkedin.com/in/minkyung-chu-6b6605300/" # add your Linkedin handle
+social-email: "mkchu125@gmail.com" # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
