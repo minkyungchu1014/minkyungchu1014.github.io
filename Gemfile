@@ -9,3 +9,5 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll-sitemap'
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin]
+gem "wdm", ">= 0.1.0", platforms: [:windows]
