@@ -1,0 +1,29 @@
+---
+layout: post
+title: 코딩테스트 10주차_이진변환반복하기
+date: 2025-10-26 13:00:00 +0300
+description: "" # Add post description (optional)
+img: book_pic1.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [코딩테스트] # add tag
+---
+
+## 접근 전략
+풀이방법을 보고 그대로 코드로 입력!   
+
+---
+
+## 코테합 책 - 저자님 소스 인용
+- *인용: 코딩 테스트 합격자 되기 - 박경록*  
+- 링크: https://github.com/minkyungchu1014/java-codingtest-min-template/pull/3
+---
+
+## 어려웠던 점
+1. 미리미리 하기! 
+
+---
+
+## 새롭게 알게된 점
+1. toBinaryString 오랜만에 써본다! 
+
+---
