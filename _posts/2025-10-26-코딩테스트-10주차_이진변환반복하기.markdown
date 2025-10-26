@@ -16,6 +16,8 @@ tags: [코딩테스트] # add tag
 ## 코테합 책 - 저자님 소스 인용
 - *인용: 코딩 테스트 합격자 되기 - 박경록*  
 - 링크: https://github.com/minkyungchu1014/java-codingtest-min-template/pull/3
+에서 Week10Solution2
+
 ---
 
 ## 어려웠던 점

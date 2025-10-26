@@ -1,0 +1,34 @@
+---
+layout: post
+title: 코딩테스트 10주차_배열회전하기
+date: 2025-10-26 12:50:00 +0300
+description: "" # Add post description (optional)
+img: book_pic1.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [코딩테스트] # add tag
+---
+
+## 접근 전략
+풀이방법을 보고 그대로 코드로 입력! 
+풀이 방법을 최대한 이해려고 반복해서 읽었다.   
+
+---
+
+## 코테합 책 - 저자님 소스 인용
+- *인용: 코딩 테스트 합격자 되기 - 박경록*  
+- 링크: https://github.com/minkyungchu1014/java-codingtest-min-template/pull/3
+에서 Week10Solution1
+
+---
+
+## 어려웠던 점
+1. 90 도 회전은 A[i,j] = A[(N-1)-j,i]
+회전과 대칭 부분이 왜 저런 식이 나오는지 이해하기 어려웠다.
+
+---
+
+## 새롭게 알게된 점
+1. 90 도 회전은 A[i,j] = A[(N-1)-j,i] 
+중간에 음수가 들어올 것을 대비하여 k = ((k % 4) + 4) % 4; 부분을 보강하였는데 사실 제약조건에 1~4 사이의 자연수 값이 들어올거라 그 부분은 필요가 없지만 혹시 몰라 지우지 않았다.
+
+---
